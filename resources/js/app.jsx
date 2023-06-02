@@ -1,7 +1,9 @@
 import ReactDOM from 'react-dom/client';
-
-import Home from './pages/Home';
+import Layout from "./components/Layout";
+import {BrowserRouter} from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById('app')).render(
-    <Home />
+    <BrowserRouter>
+        <Layout/>
+    </BrowserRouter>
 );
