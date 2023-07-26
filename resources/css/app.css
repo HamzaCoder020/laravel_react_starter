@@ -58,7 +58,7 @@ h1, h2 , h3 , h4 , h5 ,h6 {
     background-color: #fafafa;
 }
 
-.hero_careers {
+.hero_careers, .header_contact {
     background-image: url("../images/background-image.png");
     height: 527px;
 }
@@ -95,4 +95,32 @@ h1, h2 , h3 , h4 , h5 ,h6 {
 }
 .Our_services  .hire_box{
     background-color: white;
+}
+.header_contact > .content_head {
+    width: 60%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.contact_form_sec > div > .contact_box {
+    background-color: #FCFCFC;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 10px;
+}
+.contact_box .icon_contact {
+    width: 25px;
+    height: 25px;
+}
+.contact_box form input, .contact_box form textarea {
+    padding: 5px;
+    border-color: transparent !important;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+}
+.submit_form_btn {
+    background-color: #f8df0d;
+    border-radius: 4px;
+    text-align: center;
+    border-color: transparent;
 }

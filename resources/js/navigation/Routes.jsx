@@ -17,6 +17,7 @@ import HireSeoExpert from "../pages/hire-seo-expert.jsx";
 import HirePPCExpert from "../pages/hire-ppc-expert.jsx";
 import HireEmailExpert from "../pages/hire-email-marketer";
 import HireCopyWriters from "../pages/hire-copy-writers.jsx";
+import ContactUs from "../pages/contact-us";
 
 
 const base_url = "/laravel_react_starter"
@@ -27,6 +28,7 @@ export default function Router() {
             // about company
             <Route path="/laravel_react_starter" exact element={<Home />}/>
             <Route path="/laravel_react_starter/about" element={<About />} />
+            <Route path="/laravel_react_starter/contact-us" element={<ContactUs />} />
             <Route path="/laravel_react_starter/Whatwedo" element={<Whatwedo />} />
             <Route path="/laravel_react_starter/careers" element={<Careers />} />
             <Route path="/laravel_react_starter/Ui" element={<Ui />} />
