@@ -1,0 +1,22 @@
+.horizontal-slider {
+    width: 100%;
+    overflow-x: scroll;
+    background-color: #eaeaea;
+}
+
+.slider-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.slider-image {
+    height: auto;
+    object-fit: contain;
+    margin-right: 30px; /* Optional: Adjust spacing between images */
+}
+.slider-item {
+    transform: scaleX(-1);
+}

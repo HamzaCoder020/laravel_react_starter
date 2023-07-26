@@ -1,0 +1,46 @@
+
+.whyAtlantis {
+    padding: 80px;
+    background-color: #fafafa;
+}
+
+.whyus_graph {
+    width: 75%;
+    margin: 50px auto;
+    position: relative;
+    display: flex;
+}
+.whyus_graph img{
+    width: 75%;
+    margin: 0 auto;
+}
+.whyus_graph > p {
+    position: absolute;
+}
+.counts_achievements {
+    display: block;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.customer_satisfaction {
+    top: 245px ;
+    right: -25px;
+}
+.projects_completed {
+    top: 235px;
+    left: 60px;
+}
+.positive_reviews {
+    bottom: -60px;
+    left: 200px;
+}
+.team_members {
+    bottom: -68px;
+    left: 480px;
+}
+.satisfied_clients {
+    bottom: -60px;
+    right: 150px;
+}

@@ -1,0 +1,60 @@
+@media only screen and (min-width: 1400px){
+
+}
+@media only screen and (min-width: 1201px){
+    .hero_sec {
+        height: 600px;
+    }
+    .hero_sec .fade-in-slider img{
+        width: 100%;
+    }
+    .resource_body .hire_box img {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .hero_sec {
+        height: 650px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .hero_sec {
+        height: fit-content;
+        padding-top: 25px;
+    }
+    .hero_sec .fade-in-slider img{
+        width: 100%;
+    }
+    .hero_sec .btn_hirenow {
+        margin-bottom: 25px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .hero_sec {
+        height: fit-content;
+        padding: 25px 0px;
+    }
+    .hero_sec .fade-in-slider img{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .ui_resource_sec > div > div > p {
+        width: 100%;
+    }
+    .testimnial_content p {
+        color: #3d3b3b;
+        padding: 35px 15px;
+        font-weight: 500;
+    }
+}
+@media only screen and (max-width: 720px){
+    .global_heading p {
+        width: 100%;
+    }
+    .hero_sec .col-md-8 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 576px){
+
+}

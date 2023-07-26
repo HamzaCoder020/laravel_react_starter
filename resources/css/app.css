@@ -1,3 +1,98 @@
-h1{
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+* {
+    font-weight: 500;
+    color: #3d3b3b;
+}
+p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+h1, h2 , h3 , h4 , h5 ,h6 {
+    font-weight: bold !important;
+    color : #20140a;
+}
+::selection {
+    color: #3d3b3b;
+    background: #f8df0d;
+}
+
+.btn_hirenow {
+    background-color: #f8df0d !important;
+    border: 1px solid #f8df0d !important;
+    color: #20140a !important;
+    font-weight: 600 !important;
+    padding: 5px 30px !important;
+}
+.heading {
     color:red;
+}
+
+.global_heading p{
+    width: 76%;
+    margin: 15px auto 50px;
+    line-height: 34px;
+}
+.navbar-brand > img{
+    width: 200px;
+}
+
+.ui_resource_sec > div > div > p {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+.resource_body > .row {
+    justify-content: center;
+}
+.resource_body > .row > div > div  {
+    text-align : center;
+    background-color: #f5f5f5;
+}
+
+.boost_convesion_sec {
+    background-color: #fafafa;
+}
+
+.hero_careers {
+    background-image: url("../images/background-image.png");
+    height: 527px;
+}
+.hero_careers .img_box_career img {
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.job_positions_sec {
+    margin: 50px auto;
+}
+
+.head_box_jobs {
+    background: #f8df0d;
+    padding: 20px;
+    border-radius: 5px;
+}
+.why_choose {
+    background-color: #fafafa;
+}
+.why_choose .hire_box {
+    background-color: white;
+}
+/*.faqs_sec {
+    background-color: #fafafa;
+}*/
+.nav_tech NavDropdown {
+    width: 850px;
+    left: -250px;
+}
+.Our_services  {
+    background-color: #fafafa;
+}
+.Our_services  .hire_box{
+    background-color: white;
 }

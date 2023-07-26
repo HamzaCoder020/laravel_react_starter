@@ -1,0 +1,17 @@
+.job_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.job_box h5 {
+    margin: 0;
+}
+.job_box button{
+    padding: 10px 70px;
+    border: 0;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.job_box button:hover {
+    background-color: #f8df0d;
+}

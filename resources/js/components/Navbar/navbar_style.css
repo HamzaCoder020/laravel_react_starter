@@ -1,0 +1,14 @@
+.drop_down_hire >  div.dropdown-menu.show {
+    padding: 25px;
+    width: 800px;
+    display: flex;
+    left: -450px;
+    justify-content: space-around;
+}
+.drop_down_hire >  div.dropdown-menu.show a {
+    display: block;
+    text-decoration: none;
+    color: #3d3b3b;
+    font-weight: 400;
+    padding: 8px 0px;
+}

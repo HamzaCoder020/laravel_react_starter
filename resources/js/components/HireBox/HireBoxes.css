@@ -1,0 +1,12 @@
+.hire_box {
+    padding: 25px;
+    border-radius: 5px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.hire_box:hover {
+    background-color: #f8df0d;
+    transition: all 0.5s ease-in-out;
+}
+
